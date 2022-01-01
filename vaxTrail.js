@@ -40,7 +40,6 @@ let a = [];
 let b = [];
 let c = [];
 let d = [];
-// console.log('test', vaxTrail)
 
 
 let Temp = (element) => {
@@ -64,7 +63,7 @@ let Age = (element) => {
     }
 }
 
-vaxTrail.forEach(element => Temp(element));
+vaxTrail.map(element => Temp(element));
 
 
 let Final_output = {};
